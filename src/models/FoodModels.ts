@@ -7,7 +7,13 @@ class FoodModel {
   restaurantId?: string | undefined
   country?: string | undefined
 
-  constructor(id: string, image: string, title: string, description: string, price: string) {
+  constructor(
+    id: string,
+    image: string,
+    title: string,
+    description: string,
+    price: string
+  ) {
     this.foodId = id
     this.image = image
     this.title = title

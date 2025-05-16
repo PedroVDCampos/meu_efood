@@ -11,6 +11,7 @@ export const CardContainer = styled.div`
   height: 100%;
   width: 100%;
   border: 1px solid ${theme.colors.primaryColor};
+  border-radius: 10px;
   background-color: ${theme.colors.secondaryColor};
   color: ${theme.colors.primaryColor};
   box-shadow: 3px 3px 15px ${theme.colors.black};
@@ -28,6 +29,7 @@ export const CardImage = styled.img`
   width: 100%;
   height: 250px;
   object-fit: cover;
+  border-radius: 10px;
 `
 
 export const CardContent = styled.div`
@@ -66,6 +68,6 @@ export const CardPrice = styled.h3`
 `
 
 export const CardFooter = styled.div`
-  padding: 10px;
+  padding: 20px;
   width: 100%;
 `

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { theme } from '../../style/theme'
 
 const baseButton = `
-  padding: 5px;
+  padding: 7px;
   width: 100%;
   font-weight: bold;
   text-decoration: none;
@@ -14,6 +14,7 @@ const baseButton = `
   background-color: ${theme.colors.primaryColor};
   color: ${theme.colors.secondaryColor};
   border: 2px solid ${theme.colors.secondaryColor};
+  border-radius: 10px;
 
   &:hover {
     background-color: ${theme.colors.primaryColor};
