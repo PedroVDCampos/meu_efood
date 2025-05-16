@@ -1,4 +1,3 @@
-import { FaGithub, FaInstagram } from 'react-icons/fa'
 import { FooterContainer, FooterLogo, FooterText } from './FooterStyles'
 
 const Footer = () => {

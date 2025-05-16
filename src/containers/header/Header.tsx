@@ -23,10 +23,6 @@ const Header = () => {
 
   const restaurant = RestaurantsData.find((r) => r.restaurantId === id)
 
-  const totalItems = useSelector((state: RootState) =>
-    state.cart.items.reduce((sum, item) => sum + item.quantity, 0)
-  )
-
   const handleOpenAsideBar = () => {
     setShowAsideBar(true)
   }
